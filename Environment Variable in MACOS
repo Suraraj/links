@@ -1,0 +1,13 @@
+> Adding a Environment Variable in MACOS
+  1. command  "env" to see all the environment variables for your login. if there is any profile availabe then user can edit/update that profile.
+  2. If any profile is not present then 
+      command "[vi ~/.profie] to cerate and open a new profile to edit  
+  3. Command to set an environment variable [export=<<enviorment variable >>]
+  4. Command to add the environment variable to path [
+      export <<enviorment variable>>=<<enviorment variable value>>]
+      export path==$PATH:<<enviorment variable>>
+      
+      e.g: setting path for SBT_HOME
+            export SBT_HOME=/Users/surarajpradhan/Projects/bigdata_projects/softwares/sbt
+            export PATH=$PATH:$SBT_HOME/bin
+  
